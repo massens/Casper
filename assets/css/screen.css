@@ -194,6 +194,7 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-nav {
+    display: none;
     position: relative;
     z-index: 300;
     display: flex;
@@ -389,7 +390,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-direction: column;
     overflow: hidden;
     margin: 0 20px 40px;
-    min-height: 300px;
+    min-height: 100px;
     background: #fff center center;
     background-size: cover;
     border-radius: 5px;
@@ -484,6 +485,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0;
     padding: 0;
     list-style: none;
+    visibility: hidden;
 }
 
 .author-list-item {
@@ -1830,11 +1832,12 @@ Usage (In Ghost editor):
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 920px;
+    max-width: 650px;
+    margin: auto;
 }
 
 .post-template .post-content > p:first-child {
-    font-size: 1.25em;
+    font-size: 0.97em;
     line-height: 1.5em;
 }
 
