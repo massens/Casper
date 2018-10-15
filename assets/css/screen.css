@@ -109,11 +109,12 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-header {
+    direction: none;
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: black;
+    background: white no-repeat center center;
     background-size: cover;
 }
 
@@ -1624,6 +1625,7 @@ Usage (In Ghost editor):
 /* ---------------------------------------------------------- */
 
 .floating-header {
+    display: none;
     visibility: hidden;
     position: fixed;
     top: 0;
@@ -1833,7 +1835,7 @@ Usage (In Ghost editor):
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 650px;
+    max-width: 776px;
     margin: auto;
 }
 
