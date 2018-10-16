@@ -109,7 +109,6 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-header {
-    direction: none;
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -119,6 +118,7 @@ body {
 }
 
 .site-header:before {
+    display: none !important;
     content: "";
     position: absolute;
     top: 0;
@@ -131,6 +131,7 @@ body {
 }
 
 .site-header:after {
+    display: none !important;
     content: "";
     position: absolute;
     top: 0;
@@ -195,7 +196,7 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-nav {
-    display: none;
+    display: none !important;
     position: relative;
     z-index: 300;
     display: flex;
@@ -1625,7 +1626,7 @@ Usage (In Ghost editor):
 /* ---------------------------------------------------------- */
 
 .floating-header {
-    display: none;
+    display: none !important;
     visibility: hidden;
     position: fixed;
     top: 0;
